@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "Website Topic Identifier",
+  "version": "1.0",
+  "description": "A Chrome extension that assigns a topic to a website",
+  "icons": {
+    "48": "hello_extensions.png",
+    "128": "hello_extensions.png"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "hello_extensions.png",
+    "default_popup": "popup.html"
+  }
+}
