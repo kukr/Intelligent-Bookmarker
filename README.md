@@ -1,8 +1,10 @@
 # Intelligent-Bookmarker
 
-for running lda_api.py please make sure the following libraries are already installed
+For running lda_api.py please make sure the following libraries are already installed
 
+###
 pip install flask flask-cors scikit-learn
+###
 
 Then run python lda_api.py
 
