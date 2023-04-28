@@ -1,28 +1,18 @@
 {
-  "manifest_version": 2,
-  "name": "Website Topic Identifier",
+  "manifest_version": 3,
+  "name": "Website Categorizer",
   "version": "1.0",
-  "description": "A Chrome extension that assigns a topic to a website",
-  "icons": {
-    "48": "hello_extensions.png",
-    "128": "hello_extensions.png"
-  },
-  "permissions": [
-    "activeTab",
-    "storage"
-  ],
-  "background": {
-    "scripts": ["background.js"],
-    "persistent": false
-  },
-  "content_scripts": [
-    {
-      "matches": ["<all_urls>"],
-      "js": ["content.js"]
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "hello_extensions.png",
+      "48": "hello_extensions.png",
+      "128": "hello_extensions.png"
     }
-  ],
-  "browser_action": {
-    "default_icon": "hello_extensions.png",
-    "default_popup": "popup.html"
+  },
+  "permissions": ["bookmarks", "tabs"],
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "background": {
+    "service_worker": "background.js"
   }
 }
