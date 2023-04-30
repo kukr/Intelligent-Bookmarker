@@ -47,7 +47,15 @@ async function categorizeContent(content) {
   
   async function categorizeAndBookmark(tab) {
     const content = await fetchWebContent(tab.url);
+    console.log("length --> ",content.length);
+    console.log("content --> ",content);
+    // extract text from html content content variable from the tags p, h1, h2, h3, h4, h5, h6, li, td, span
+    const text = content.replace(/<[^>]*>?/gmi, '').trim();
+    console.log("text --> ",text);
+
+
     const category = await categorizeContent(content);
+    
   
     const folderTitle = `Categorized - ${category}`;
     let folder = await findOrCreateFolder(folderTitle);
