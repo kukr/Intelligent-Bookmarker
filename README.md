@@ -2,7 +2,7 @@
 
 # Set Up
 * Download and extract the zip file or clone the project to your local.
-* Go to /yourpath/Intelligent-Bookmarker/
+* /yourpath/Intelligent-Bookmarker/ is our root folder
 
 * Go to chrome://extensions/ and turn on the developer mode in the top right corner of the page.
 * Click on "Load unpacked" on the top left and select the /yourpath/Intelligent-Bookmarker/ folder.
