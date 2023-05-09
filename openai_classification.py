@@ -46,12 +46,6 @@ def categorize_website(url):
 
     text = tokenize_and_truncate(content, max_tokens=4000)
 
-    # if len(content.split()) > 4000:  # assuming an average of 1 token per word
-    #     content = ' '.join(content.split()[:4000])
-    #print(len(content))
-    # result = classifier(content, topics)
-    # print(result["labels"][0])
-    # return result["labels"][0]
     prompt = f"{text}\n\nThis website belongs to the category of (Give me just one word topic label):"
     response = openai.Completion.create(
       engine="text-davinci-003",
