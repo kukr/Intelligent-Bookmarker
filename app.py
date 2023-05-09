@@ -26,7 +26,7 @@ def categorize():
     url = request.json['url']
     print(url)
     category = categorize_website(url)
-    print(category)
+    #print(category)
     return jsonify({"category": category})
 
 if __name__ == '__main__':
