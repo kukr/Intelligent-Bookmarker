@@ -25,7 +25,7 @@ topics = [
 ]
 
 def categorize_website(url):
-    classifier = pipeline("zero-shot-classification", model="facebook/bart-large-mnli")
+    classifier = pipeline("zero-shot-classification", model="sentence-transformers/paraphrase-MiniLM-L6-v2")
     content = extract_text_from_url(url)
     print("Bert reach")
     result = classifier(content, topics)
