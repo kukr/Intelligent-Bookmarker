@@ -1,15 +1,34 @@
-# website-categorizer
+# Intelligent Bookmarker
 
-For running lda_api.py please make sure the following libraries are already installed
+# Set Up
+Download and extract the zip file or clone the project to your local.
+Go to /yourpath/Intelligent-Bookmarker/
 
+Go to chrome://extensions/ and turn on the developer mode in the top right corner of the page.
+Click on "Load unpacked" on the top left and select the /yourpath/Intelligent-Bookmarker/ folder.
+Open a new tab and you should now be able to see the "Intelligent Bookmarker" extension among your browser extensions.
+
+Install dependencies in the folder to start the server
 ###
 pip install flask flask-cors scikit-learn
 ###
+Run python app.py in /yourpath/Intelligent-Bookmarker/ (It could take up to 5 minutes for the first time to start the server)
 
-Then run python lda_api.py
+Wait until you receive,  
 
-Then load the extension by using the following approach:
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: xxx-yyy-zzz
 
-1. Open Chrome and navigate to chrome://extensions.
-2. Enable "Developer mode" by toggling the switch in the top right corner.
-3. Click "Load unpacked" and select the website_categorizer folder you created earlier.
+# Usage
+
+Browse to any tab.
+Click on the extension and select the "Bookmark and Categorize" button.
+You can find that bookmark is automatically categorized and added to a folder.
+Add more tabs and populate your bookmarks to folders representing categories.
+
