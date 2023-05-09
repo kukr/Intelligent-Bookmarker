@@ -1,18 +1,18 @@
 # Intelligent Bookmarker
 
 # Set Up
-Download and extract the zip file or clone the project to your local.
-Go to /yourpath/Intelligent-Bookmarker/
+* Download and extract the zip file or clone the project to your local.
+* Go to /yourpath/Intelligent-Bookmarker/
 
-Go to chrome://extensions/ and turn on the developer mode in the top right corner of the page.
-Click on "Load unpacked" on the top left and select the /yourpath/Intelligent-Bookmarker/ folder.
-Open a new tab and you should now be able to see the "Intelligent Bookmarker" extension among your browser extensions.
+* Go to chrome://extensions/ and turn on the developer mode in the top right corner of the page.
+* Click on "Load unpacked" on the top left and select the /yourpath/Intelligent-Bookmarker/ folder.
+* Open a new tab and you should now be able to see the "Intelligent Bookmarker" extension among your browser extensions.
 
 Install dependencies in the folder to start the server
 ###
-pip install flask flask-cors scikit-learn
+* pip install flask flask-cors scikit-learn
 ###
-Run python app.py in /yourpath/Intelligent-Bookmarker/ (It could take up to 5 minutes for the first time to start the server)
+* Run python app.py in /yourpath/Intelligent-Bookmarker/ (It could take up to 5 minutes for the first time to start the server)
 
 Wait until you receive,  
 
@@ -27,8 +27,8 @@ Press CTRL+C to quit
 
 # Usage
 
-Browse to any tab.
-Click on the extension and select the "Bookmark and Categorize" button.
-You can find that bookmark is automatically categorized and added to a folder.
-Add more tabs and populate your bookmarks to folders representing categories.
+* Browse to any tab.
+* Click on the extension and select the "Bookmark and Categorize" button.
+* You can find that bookmark is automatically categorized and added to a folder.
+* Add more tabs and populate your bookmarks to folders representing categories.
 
