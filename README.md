@@ -11,6 +11,7 @@
 Install dependencies in the folder to start the server
 ###
 * pip install flask flask-cors scikit-learn bs4 transformers requests
+* pip install gensim torch openai
 ###
 * Run python app.py in /yourpath/Intelligent-Bookmarker/ (It could take up to 5 minutes for the first time to start the server)
 
