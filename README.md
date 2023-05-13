@@ -1,5 +1,7 @@
 # Intelligent Bookmarker
 
+# User Interaction Flow
+![Alt Text](images/user_interaction_flow.png) 
 # Set Up
 * Download and extract the zip file or clone the project to your local.
 * /yourpath/Intelligent-Bookmarker/ is our root folder
