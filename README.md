@@ -2,6 +2,9 @@
 
 # User Interaction Flow
 ![Alt Text](images/user_interaction_flow.png) 
+
+For a quick demo, refer [here](https://illinois.zoom.us/rec/share/mUqsMp2FGyJ6oTAbdhjBAJB--Q7-ULspJV4Af8EDBE8i3eZHYGwciY91iaULPGi2.OIxk56vdq50l6sKr?startTime=1684021005000)
+
 # Set Up
 * Download and extract the zip file or clone the project to your local.
 * /yourpath/Intelligent-Bookmarker/ is our root folder
