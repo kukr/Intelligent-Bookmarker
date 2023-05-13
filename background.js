@@ -1,7 +1,6 @@
 const categories = {
     'technology': ['techcrunch.com', 'theverge.com'],
     'news': ['cnn.com', 'bbc.com'],
-    // Add more categories and websites here
   };
 
   async function fetchWebContent(url) {
@@ -26,12 +25,10 @@ async function getTopicLabel(url) {
     });
   
     const data = await response.json();
-    //console.log(data)
     return data.category;
   }
   
   async function categorizeAndBookmark(tab) {
-    //const content = await fetchWebContent(tab.url);
     const category = await getTopicLabel(tab.url);
   
     const folderTitle = `${category}`;
