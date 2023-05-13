@@ -15,7 +15,9 @@ Install dependencies in the folder to start the server
 * pip install flask flask-cors scikit-learn bs4 transformers requests
 * pip install gensim torch openai
 ###
-* Run python app.py in /yourpath/Intelligent-Bookmarker/ (It could take up to 5 minutes for the first time to start the server)
+* Go to https://platform.openai.com/account/api-keys to get your Secret Key from Open AI. (If you are having trouble getting your secure keys, you can reach out to any of the developers).
+* Open key.conf and enter your secret key in a single line. It will be read by openai_classification.py (line 11)
+* Run python app.py in /yourpath/Intelligent-Bookmarker/ (It could take up to one minute for the first time to start the server - Subsequent starts may be quicker)
 
 Wait until you receive,  
 
@@ -36,8 +38,7 @@ Press CTRL+C to quit
 * Add more tabs and populate your bookmarks to folders representing categories.
 
 # Getting Access to API KEY
-* Note that the API KEY provided in the openai_classification.py is revoked.
 * Open AI prevents commiting of API KEY to GitHub or any online service and thus leads to revocation of the key.
-* Hence, we request the user of the tool to contact the contributors for getting access to the API KEY for using the tool.
-* Kindly, send an email to either of the emails provided.
+* Hence, we request the user of the tool to get your own secure keys by following the instructions above or contact the contributors for getting access to the API KEY.
+* Kindly, send email to either of the emails provided.
 * kc62@illinois.edu, uk3@illinois.edu, srirame2@illinois.edu
