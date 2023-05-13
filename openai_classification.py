@@ -5,7 +5,7 @@ from utils import extract_text_from_url
 import openai 
 
 # Set the OpenAI API key
-openai.api_key = "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"
+openai.api_key = "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"
 
 # A list of predefined topics
 topics = [
