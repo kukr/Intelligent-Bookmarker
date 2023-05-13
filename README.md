@@ -33,3 +33,9 @@ Press CTRL+C to quit
 * You can find that bookmark is automatically categorized and added to a folder.
 * Add more tabs and populate your bookmarks to folders representing categories.
 
+# Getting Access to API KEY
+* Note that the API KEY provided in the openai_classification.py is revoked.
+* Open AI prevents commiting of API KEY to GitHub or any online service and thus leads to revocation of the key.
+* Hence, we request the user of the tool to contact the contributors for getting access to the API KEY for using the tool.
+* Kindly, send an email to either of the emails provided.
+* kc62@illinois.edu, uk3@illinois.edu, srirame2@illinois.edu
