@@ -10,6 +10,7 @@ For a quick demo, refer [here](https://illinois.zoom.us/rec/share/mUqsMp2FGyJ6oT
 * /yourpath/Intelligent-Bookmarker/ is our root folder
 
 * Go to chrome://extensions/ and turn on the developer mode in the top right corner of the page.
+* Remove the generated __pycache__ folder from the project after running the "python app.py"
 * Click on "Load unpacked" on the top left and select the /yourpath/Intelligent-Bookmarker/ folder.
 * Open a new tab and you should now be able to see the "Intelligent Bookmarker" extension among your browser extensions.
 
